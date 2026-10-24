@@ -8,7 +8,10 @@ This project uses Microsoft Power BI to transform retail transaction data into a
 
 The report explores sales performance, profitability, customer and product contributions, discount patterns, and order-to-shipment processing time. It presents these areas through six interactive dashboards designed to help users investigate business performance from multiple perspectives.
 
+The analysis helps identify key revenue and profitability drivers, evaluate customer and product performance, assess discount-related risks, and examine order processing efficiency to support informed business decisions.
+
 The project demonstrates practical data analytics skills in data preparation, data modeling, DAX calculations, KPI development, dashboard design, and business performance analysis.
+
 
 ## 2. Business Objectives
 
@@ -137,11 +140,11 @@ The Executive Overview dashboard provides an initial view of sales growth, order
 
 ### Key Findings
 
-**1. Strong sales growth**
+### Strong Sales Growth
 
-Total sales reached **$2,326,534.35**, representing a reported increase of **47.16%** compared with the previous year.
+Total sales reached $2,326,534.35, with reported year-over-year growth of 47.16%.
 
-*Business implication:* The business should investigate which products, customer segments, regions, and sales periods contributed most to this increase.
+**Business implication:** Investigate the products, customer segments, regions, and periods contributing most to this growth. Compare sales growth with profit growth and profit margins to assess whether the increase is translating into sustainable profitability.
 
 **2. Profit increased alongside sales**
 
@@ -630,12 +633,14 @@ Retail-Sales-Profitability-PowerBI/
 
 ## 12. How to Explore the Project
 
-1. Open the Power BI report in `Power-bi/` using Microsoft Power BI Desktop.
-2. Start with the Executive Overview dashboard.
-3. Navigate through the remaining dashboard pages.
-4. Use the available filters and visual interactions to explore different business dimensions.
-5. Review the images in `screenshots/` for a quick preview of the report.
-6. Refer to the source dataset in `data/`, subject to its licensing and usage terms.
+1. **Preview the dashboards:** Browse the `screenshots/` folder to see the six dashboard pages.
+2. **Open the Power BI report:** Navigate to `Power-bi/` and open `Retail_Sales_Profitability_Business_Performance.pbix` using Microsoft Power BI Desktop.
+3. **Explore the Executive Overview:** Begin with the main sales, profit, order volume, and profitability KPIs.
+4. **Navigate through the dashboards:** Explore product trends, customer and segment performance, discount strategies, and shipping operations.
+5. **Interact with the report:** Use the available slicers and visual interactions to analyze performance across the available business dimensions.
+6. **Review the supporting documentation:** Read the README files in the `Power-bi/`, `data/`, and `screenshots/` folders for additional project information.
+
+**Requirements:** Microsoft Power BI Desktop is required to open and interact with the `.pbix` report.
 
 ## 13. Skills Demonstrated
 
